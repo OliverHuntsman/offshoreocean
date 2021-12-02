@@ -48,7 +48,7 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://www.facebook.com"
+                href="https://www.facebook.com/offshoreocean"
                 title="Facebook"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -56,7 +56,7 @@ const Layout = props => {
                 Facebook
               </a>
               <a
-                href="https://twitter.com"
+                href="https://twitter.com/offshoreocean"
                 title="Twitter"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -72,12 +72,12 @@ const Layout = props => {
                 RSS
               </Link>
               <a
-                href="https://github.com/vaporwavy/gatsby-london-after-midnight"
-                title="GitHub"
+                href="https://instagram.com/offshoreocean"
+                title="Instagram"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                GitHub
+                Instagram
               </a>
             </div>
           </div>

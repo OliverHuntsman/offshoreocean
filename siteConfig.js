@@ -1,10 +1,11 @@
 module.exports = {
-  name: "London After Midnight",
-  shortName: "LAM",
-  description:
-    "A bold, minimal theme for Gatsby, focused on clean typography & beautiful imagery",
-  url: "https://gatsby-lam.weensy.co", // Domain of your site without prefix!
-  prefix: "/",
-  author: "weensykim",
-  twitter: "",
+  name: 'Ocean Offshore',
+  shortName: 'OO',
+  description: 'Offshore Ocean takes a deep dive into the Sportfishing Market, focusing on World Class Center Consoles',
+  url: 'https://offshoreocean.com/', // Domain of your site without prefix!
+  prefix: '/',
+  author: 'Ocean Offshore',
+  twitter: 'offshoreocean',
+  
+
 }
