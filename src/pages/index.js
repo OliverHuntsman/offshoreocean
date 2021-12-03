@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, StaticQuery, /*useStaticQuery*/ } from "gatsby"
+import { graphql, StaticQuery, Link /*useStaticQuery*/ } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -60,6 +60,7 @@ const BlogIndex = ({ data }, location) => {
           <h2 className="page-head-title">
             {data.site.siteMetadata.description}
           </h2>
+          <Link to="editor" color='#fffff'>Read a note from The Editor</Link>
         </header>
       )}
       <div className="post-feed">

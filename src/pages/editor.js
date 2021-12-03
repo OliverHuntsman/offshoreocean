@@ -8,24 +8,24 @@ import SEO from "../components/seo"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
 
-const AboutPage = ({ data }, location) => {
+const EditorPage = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
     <Layout title={siteTitle}>
-      <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+      <SEO title="From the Editor" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
-          Offshore Ocean takes a deep dive into the Sportfishing Market, focusing on World Class Center Consoles.
+            For those of you who rise before dawn to get to the best fishing grounds.
           </h2>
           <figure className="kg-card kg-image-card kg-width-full">
             <Img
-              fluid={data.thirtySevenCat.childImageSharp.fluid}
+              fluid={data.benchAccounting.childImageSharp.fluid}
               className="kg-image"
             />
-            <figcaption>The powerful 37' Invincible Catamaran</figcaption>
+            <figcaption>Large imagery is at the heart of this theme</figcaption>
           </figure>
           <h3 id="dynamic-styles">Dynamic styles</h3>
           <p>
@@ -61,8 +61,8 @@ const indexQuery = graphql`
         title
       }
     }
-    thirtySevenCat: file(
-      relativePath: { eq: "Invincible-Boats-37-Ft-Catamaran.jpg" }
+    benchAccounting: file(
+      relativePath: { eq: "bench-accounting-49909-unsplash.jpg" }
     ) {
       childImageSharp {
         fluid(maxWidth: 1360) {
@@ -77,7 +77,7 @@ export default props => (
   <StaticQuery
     query={indexQuery}
     render={data => (
-      <AboutPage location={props.location} data={data} {...props} />
+      <EditorPage location={props.location} data={data} {...props} />
     )}
   />
 )
