@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, StaticQuery, useStaticQuery } from "gatsby"
+import { graphql, StaticQuery, /*useStaticQuery*/ } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -38,9 +38,9 @@ const BlogIndex = ({ data }, location) => {
   "@type": "Organization",
   "name": "OffshoreOcean",
   "description" : data.site.siteMetadata.description,
-  "alternateName": "Ocean Offshore",
+  "alternateName": "Offshore Ocean",
   "url": data.site.siteMetadata.siteUrl,
-  "logo": "https://oceanoffshore.com/static/offshore-ocean-logo.png",
+  "logo": "https://offshoreocean.com/static/offshore-ocean-logo.png",
   "sameAs": "https://instagram.com/offshore_olly"
 
 

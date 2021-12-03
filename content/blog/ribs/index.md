@@ -2,7 +2,7 @@
 title: Why you should own a RIB
 date: "2021-02-04"
 tags: [invincible,ribs,buying guide, opinions]
-description: Ocean Offshore takes a good look at the difference between the latest Offshore Fishing Center Consoles and Luxury RIBs
+description: Offshore Ocean takes a good look at the difference between the latest Offshore Fishing Center Consoles and Luxury RIBs
 ---
 
 RIBs are great, a RIB was the first boat our family owned when my brothers and I were kids, in fact now with my own kids, I own one!
