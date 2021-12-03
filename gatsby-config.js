@@ -97,7 +97,7 @@ module.exports = {
         short_name: siteConfig.shortName,
         start_url: siteConfig.prefix,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#36B0BA`,
         display: `minimal-ui`,
         icon: `static/offshore-ocean-icon.svg`,
       },
