@@ -47,7 +47,7 @@ const Layout = props => {
             </Link>
           </div>
           <div className="site-head-right">
-            <div className="social-links">
+            {/* <div className="social-links">
               <a
                 href="https://www.facebook.com/offshoreocean"
                 title="Facebook"
@@ -80,8 +80,9 @@ const Layout = props => {
               >
                 Instagram
               </a>
-            </div>
+            </div>*/}
           </div>
+          <SocialFollow />
         </div>
       </header>
       <main id="site-main" className="site-main">
