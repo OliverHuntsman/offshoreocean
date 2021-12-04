@@ -1,7 +1,7 @@
 ---
 title: Freedive
 date: "2021-01-31"
-tags: [blue,color]
+tags: [blue, color]
 thumbnail: ./LJ-Strike-Invincible-40-with-MY-Nomad-12.jpeg
 description: What if everything you knew was turned to blue?
 ---
