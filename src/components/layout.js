@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import socialFollow from "./socialFollow"
+import SocialFollow from "./socialFollow"
 
 const Layout = props => {
   const { title, children } = props
@@ -99,7 +99,7 @@ const Layout = props => {
         >
           Gatsby
         </a>
-        <socialFollow />
+        <SocialFollow />
       </footer>
     </div>
   )
