@@ -12,7 +12,7 @@ import {
 export default function SocialFollow() {
   return (
     <div class="social-container">
-      <h3>Social Follow</h3>
+      <h3>Follow Us On Social Media</h3>
       <a href="https://www.youtube.com/" className="youtube social">
         <FontAwesomeIcon icon={faYoutube} size="2x" />
       </a>
@@ -35,7 +35,7 @@ export default function SocialFollow() {
         <FontAwesomeIcon icon={faTiktok} size="2x" />
       </a>
       <a
-        href="https://www.tiktok.com/@offshoreocean"
+        href="https://www.linkedin.com/company/offshore-ocean"
         className="linkedin social"
       >
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
