@@ -6,6 +6,7 @@ import {
   faTwitter,
   faInstagram,
   faTiktok,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons"
 
 export default function SocialFollow() {
@@ -32,6 +33,12 @@ export default function SocialFollow() {
       </a>
       <a href="https://www.tiktok.com/@offshoreocean" className="tiktok social">
         <FontAwesomeIcon icon={faTiktok} size="2x" />
+      </a>
+      <a
+        href="https://www.tiktok.com/@offshoreocean"
+        className="linkedin social"
+      >
+        <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
     </div>
   )
