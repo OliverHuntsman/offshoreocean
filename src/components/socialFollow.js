@@ -16,7 +16,7 @@ export default function SocialFollow() {
       <a href="https://www.youtube.com/" className="youtube social">
         <FontAwesomeIcon icon={faYoutube} size="2x" />
       </a>
-      <a href="https://www.facebook.com/" className="facebook social">
+      <a href="https://www.facebook.com/" className="facebook social" rel ="noopener noreferrer">
         <FontAwesomeIcon icon={faFacebook} size="2x" />
       </a>
       <a
