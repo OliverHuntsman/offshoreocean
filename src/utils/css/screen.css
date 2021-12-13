@@ -334,7 +334,7 @@ body {
     margin-top: 3vw;
   }
   .social-links {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
   }
 

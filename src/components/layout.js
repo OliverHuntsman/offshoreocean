@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import SocialFollow from "./socialFollow"
+import SocialHeader from "./socialHeader"
 
 const Layout = props => {
   const { title, children } = props
@@ -16,7 +17,7 @@ const Layout = props => {
           >
             <div
               className="hamburger hamburger--collapse"
-              aria-label="Menu"
+              aria-label="Main menu"
               role="button"
               aria-controls="navigation"
             >
@@ -47,8 +48,8 @@ const Layout = props => {
             </Link>
           </div>
           <div className="site-head-right">
-            {/* <div className="social-links">
-              <a
+            <div className="social-links">
+              {/* <a
                 href="https://www.facebook.com/offshoreocean"
                 title="Facebook"
                 target="_blank"
@@ -79,10 +80,10 @@ const Layout = props => {
                 rel="noopener noreferrer"
               >
                 Instagram
-              </a>
-            </div>*/}
+              </a>*/}
+              <SocialHeader />
+            </div>
           </div>
-          <SocialFollow />
         </div>
       </header>
       <main id="site-main" className="site-main">
