@@ -27,26 +27,30 @@ const AboutPage = ({ data }, location) => {
             />
             <figcaption>The powerful 37' Invincible Catamaran</figcaption>
           </figure>
-          <h3 id="dynamic-styles">Dynamic styles</h3>
+          <h3 id="dynamic-styles">Going Offshore</h3>
           <p>
-            London comes with photo-centric main layout best suited to
-            photography, graphics portfolios and other image-heavy uses.
+            We love life Offshore and everything which comes with it, bing on your boat in the water, the salt in 
+            your hair and the either on the hunt or with tight lines.
           </p>
           <p>
-            Both post and page templates are light and minimal, with all the
-            focus on the content while the design of the theme gets out of the
-            way. Beneath the hood, London enjoys the full power of the{" "}
-            <a href="https://docs.ghost.org/api/handlebars-themes/">
-              Ghost Handlebars Theme API
-            </a>{" "}
-            to provide limitless customisation options and dynamic styles.
+            This site aims to bring Sportfishing on board Center Consoles, popular in the US, to the rest of the World,
+            getting up close and personal with brands like 
+            {" "}
+            <a href="https://invincibleboats.com/">
+              Invincible Boats
+            </a>{" "} and {" "} <a href = "https://yellowfinoffshor.com"> Yellowfin, </a>{" "}
+
+            to provide key insights into life Offshore in high performance Center Consoles.
           </p>
           <p>
-            Don't forget to check out the{" "}
-            <a href="https://docs.ghost.org/integrations/">
-              Ghost Integrations Directory
-            </a>{" "}
-            for more ways to integrate Ghost with your favourite services.
+            Don't forget to check us out on Social Media, or use an RSS reader like {" "}
+            <a href="https://feedly.com/">
+              Feedly
+            </a>{" "} to stay up to date with our latest posts.
+            <p/>
+            <p>
+              Tight Lines!
+            </p>
           </p>
         </div>
       </article>
