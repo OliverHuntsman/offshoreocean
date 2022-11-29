@@ -18,35 +18,34 @@ const EditorPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
-            For those of you who rise before dawn to get to the best fishing grounds.
+            {/* For those of you who rise before dawn to get to the best fishing grounds. */}
+          How do we both Stand out, grow our audience and 'Hack' our way to the top?
           </h2>
-          <figure className="kg-card kg-image-card kg-width-full">
+          {/* <figure className="kg-card kg-image-card kg-width-full">
             <Img
               fluid={data.benchAccounting.childImageSharp.fluid}
               className="kg-image"
             />
             <figcaption>Large imagery is at the heart of this theme</figcaption>
-          </figure>
-          <h3 id="dynamic-styles">Dynamic styles</h3>
+          </figure> */}
+          <h3 id="dynamic-styles">Here we go....</h3>
           <p>
-            London comes with photo-centric main layout best suited to
-            photography, graphics portfolios and other image-heavy uses.
+            Go anywhere online today and you are obliterated with enormous volmes of short form content which,
+            all too often, leaves you Insta-Unsatisfied .
           </p>
           <p>
-            Both post and page templates are light and minimal, with all the
-            focus on the content while the design of the theme gets out of the
-            way. Beneath the hood, London enjoys the full power of the{" "}
-            <a href="https://docs.ghost.org/api/handlebars-themes/">
-              Ghost Handlebars Theme API
-            </a>{" "}
-            to provide limitless customisation options and dynamic styles.
+            My idea for Offshore Ocean is to take a Long-form look at the Short-form world 
           </p>
           <p>
-            Don't forget to check out the{" "}
-            <a href="https://docs.ghost.org/integrations/">
-              Ghost Integrations Directory
-            </a>{" "}
-            for more ways to integrate Ghost with your favourite services.
+            By featuring the likes of Peter Miller or Gale Force Twins (for example) who have strong followings we can piggy back on their followers to increase our reach.
+
+
+          </p>
+          <p>My idea would be to look at fishing, spearfishing, superyachts and pull together some excellent content.</p>
+
+          <p>
+
+            Lets go to the Lurrsen factory or Royal Huisman, profile the team there and drop in yes this is analagous to our export business for Invincible Boats.
           </p>
         </div>
       </article>
