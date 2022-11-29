@@ -48,6 +48,13 @@ module.exports = {
             },
           },
           {
+            resolve: 'gatsby-remark-instagram-embed',
+            options: {
+              width: 320,
+              height: 320,
+            },
+          },
+          {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
               wrapperStyle: `margin-bottom: 1.0725rem`,

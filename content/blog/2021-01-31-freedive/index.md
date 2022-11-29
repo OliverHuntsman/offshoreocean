@@ -10,6 +10,8 @@ description: What if everything you knew was turned to blue?
 
 <!-- ![It's all blue](./cody-davis-259003-unsplash.jpg) -->
 
+![instagram](Cb0bj5NPmMb)
+
 ![It's all blue](./freedive1.jpeg)
 
 
