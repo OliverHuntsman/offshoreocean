@@ -41,7 +41,7 @@ const EditorPage = ({ data }, location) => {
 
 
           </p>
-          <p>My idea would be to look at fishing, spearfishing, superyachts and pull together some excellent content.</p>
+          <p>My idea would be to look at fishing, spearfishing, leisure cruising, superyachts and pull together some excellent content.</p>
 
           <p>
 
