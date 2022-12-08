@@ -1,5 +1,15 @@
 const urljoin = require("url-join")
 const siteConfig = require("./siteConfig")
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
+const strapiConfig = {
+  apiURL: process.env.STRAPI_API_URL,
+  accessToken: process.env.STRAPI_TOKEN,
+  collectionTypes: ['Boats'],
+  singleTypes: ['test1'],
+};
 
 module.exports = {
   siteMetadata: {
@@ -12,6 +22,10 @@ module.exports = {
     },
   },
   plugins: [
+    {
+      resolve: `gatsby-source-strapi`,
+      options: strapiConfig,
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
