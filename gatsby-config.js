@@ -7,7 +7,21 @@ require('dotenv').config({
 const strapiConfig = {
   apiURL: process.env.STRAPI_API_URL,
   accessToken: process.env.STRAPI_TOKEN,
-  collectionTypes: ['Boats'],
+  collectionTypes: [
+    {
+    singularName: 'boat',
+    queryParams: {
+      publicationState: process.env.GATSBY_IS_PREVIEW === 'true' ? 'preview' : 'live',
+      populate: {
+        category: { populate: '*' },
+        cover: '*',
+        blocks: {
+          populate: '*',
+        },
+        mainImage: { populate: '*' },
+      },
+    },
+  },],
   singleTypes: ['test1'],
 };
 
@@ -128,3 +142,4 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
   ],
 }
+
