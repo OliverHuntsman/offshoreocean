@@ -31,6 +31,13 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_self",
+              rel: "nofollow"
+            }
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1360,
@@ -38,6 +45,13 @@ module.exports = {
               showCaptions: true,
               quality: 75,
               wrapperStyle: `margin: 7vw 0;`,
+            },
+          },
+          {
+            resolve: 'gatsby-remark-instagram-embed',
+            options: {
+              width: 320,
+              height: 320,
             },
           },
           {
@@ -90,9 +104,9 @@ module.exports = {
         short_name: siteConfig.shortName,
         start_url: siteConfig.prefix,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#36B0BA`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `static/offshore-ocean-icon.svg`,
       },
     },
     `gatsby-plugin-netlify`,

@@ -8,6 +8,9 @@
     "url": "https://github.com/weensykim/gatsby-london-after-midnight/issues"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
     "gatsby": "^2.32.13",
     "gatsby-cli": "^2.19.3",
     "gatsby-image": "^2.11.0",
@@ -21,7 +24,9 @@
     "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-plugin-sharp": "^2.14.4",
     "gatsby-remark-copy-linked-files": "^2.10.0",
+    "gatsby-remark-external-links": "0.0.4",
     "gatsby-remark-images": "^2.0.6",
+    "gatsby-remark-instagram-embed": "^1.0.0",
     "gatsby-remark-prismjs": "^3.3.20",
     "gatsby-remark-responsive-iframe": "^2.11.0",
     "gatsby-remark-smartypants": "^2.10.0",

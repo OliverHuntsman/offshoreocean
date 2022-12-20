@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import SocialFollow from "./socialFollow"
 
 const Layout = props => {
   const { title, children } = props
@@ -26,14 +27,14 @@ const Layout = props => {
           </a>
           <nav id="swup" class="site-head-left">
             <ul className="nav" role="menu">
-              {/* <li className="nav-home nav-current" role="menuitem">
-                <Link to={`/`}>Home</Link>
-              </li> */}
+              <li className="nav-home nav-current" role="menuitem">
+                <Link to={`/`}>Home/News</Link>
+              </li> 
               <li className="nav-about" role="menuitem">
                 <Link to={`/about`}>About</Link>
               </li>
               <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
+                <Link to={`/editor`}>From the Editor</Link>
               </li>
               <li className="nav-tags" role="menuitem">
                 <Link to={`/tags`}>Tags</Link>
@@ -48,7 +49,7 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://www.facebook.com"
+                href="https://www.facebook.com/offshoreocean"
                 title="Facebook"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -56,7 +57,7 @@ const Layout = props => {
                 Facebook
               </a>
               <a
-                href="https://twitter.com"
+                href="https://twitter.com/offshoreocean"
                 title="Twitter"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -72,12 +73,12 @@ const Layout = props => {
                 RSS
               </Link>
               <a
-                href="https://github.com/vaporwavy/gatsby-london-after-midnight"
-                title="GitHub"
+                href="https://instagram.com/offshoreocean"
+                title="Instagram"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                GitHub
+                Instagram
               </a>
             </div>
           </div>
@@ -98,6 +99,7 @@ const Layout = props => {
         >
           Gatsby
         </a>
+        <SocialFollow />
       </footer>
     </div>
   )

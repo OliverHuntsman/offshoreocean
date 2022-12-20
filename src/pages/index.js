@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, StaticQuery } from "gatsby"
+import { graphql, StaticQuery, Link /*useStaticQuery*/ } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -14,11 +14,44 @@ const BlogIndex = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
   let postCounter = 0
+  
+ /* const {site} = useStaticQuery(
+    graphql`
+    query{
+      site{
+        siteMetadata{
+          description
+          siteUrl
+        }
+      }
+    }
+`
+
+
+
+  )
+  */
+  const schema = {
+
+
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "OffshoreOcean",
+  "description" : data.site.siteMetadata.description,
+  "alternateName": "Offshore Ocean",
+  "url": data.site.siteMetadata.siteUrl,
+  "logo": "https://offshoreocean.com/static/offshore-ocean-logo.png",
+  "sameAs": "https://instagram.com/offshore_olly"
+
+
+
+  }
 
   return (
     <Layout title={siteTitle}>
       <SEO
         title="Posts"
+        schemaMarkup={schema}
         keywords={[`devlog`, `blog`, `gatsby`, `javascript`, `react`]}
       />
       {/* <Bio /> */}
@@ -27,6 +60,7 @@ const BlogIndex = ({ data }, location) => {
           <h2 className="page-head-title">
             {data.site.siteMetadata.description}
           </h2>
+          <Link to="editor" color='#fffff'>Read a note from The Editor</Link>
         </header>
       )}
       <div className="post-feed">
@@ -52,6 +86,7 @@ const indexQuery = graphql`
       siteMetadata {
         title
         description
+        siteUrl
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
