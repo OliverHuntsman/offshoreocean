@@ -3,16 +3,17 @@ import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 class BlogPostTemplate extends React.Component {
   render() {
+    console.log(this.props)
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO
+        <Seo
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
