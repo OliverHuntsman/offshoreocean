@@ -2,7 +2,7 @@ import React from "react"
 import { graphql, StaticQuery, Link /*useStaticQuery*/ } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 // import Bio from "../components/bio"
 import PostCard from "../components/postCard"
 
@@ -14,8 +14,8 @@ const BlogIndex = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
   let postCounter = 0
-  
- /* const {site} = useStaticQuery(
+
+  /* const {site} = useStaticQuery(
     graphql`
     query{
       site{
@@ -32,24 +32,19 @@ const BlogIndex = ({ data }, location) => {
   )
   */
   const schema = {
-
-
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "OffshoreOcean",
-  "description" : data.site.siteMetadata.description,
-  "alternateName": "Offshore Ocean",
-  "url": data.site.siteMetadata.siteUrl,
-  "logo": "https://offshoreocean.com/static/offshore-ocean-logo.png",
-  "sameAs": "https://instagram.com/offshore_olly"
-
-
-
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "OffshoreOcean",
+    description: data.site.siteMetadata.description,
+    alternateName: "Offshore Ocean",
+    url: data.site.siteMetadata.siteUrl,
+    logo: "https://offshoreocean.com/static/offshore-ocean-logo.png",
+    sameAs: "https://instagram.com/offshore_olly",
   }
 
   return (
     <Layout title={siteTitle}>
-      <SEO
+      <Seo
         title="Posts"
         schemaMarkup={schema}
         keywords={[`devlog`, `blog`, `gatsby`, `javascript`, `react`]}
@@ -60,7 +55,9 @@ const BlogIndex = ({ data }, location) => {
           <h2 className="page-head-title">
             {data.site.siteMetadata.description}
           </h2>
-          <Link to="editor" color='#fffff'>Read a note from The Editor</Link>
+          <Link to="editor" color="#fffff">
+            Read a note from The Editor
+          </Link>
         </header>
       )}
       <div className="post-feed">
@@ -68,7 +65,7 @@ const BlogIndex = ({ data }, location) => {
           postCounter++
           return (
             <PostCard
-              key={node.fields.slug}
+              key={node.id}
               count={postCounter}
               node={node}
               postClass={`post`}
@@ -81,7 +78,7 @@ const BlogIndex = ({ data }, location) => {
 }
 
 const indexQuery = graphql`
-  query {
+  query index {
     site {
       siteMetadata {
         title
@@ -89,13 +86,10 @@ const indexQuery = graphql`
         siteUrl
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
       edges {
         node {
           excerpt
-          fields {
-            slug
-          }
           frontmatter {
             date(formatString: "MMMM D, YYYY")
             title
@@ -109,13 +103,17 @@ const indexQuery = graphql`
               }
             }
           }
+          id
+          fields {
+            slug
+          }
         }
       }
     }
   }
 `
 
-export default props => (
+const Index = props => (
   <StaticQuery
     query={indexQuery}
     render={data => (
@@ -123,3 +121,5 @@ export default props => (
     )}
   />
 )
+
+export default Index

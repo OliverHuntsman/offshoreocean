@@ -1,4 +1,3 @@
-const urljoin = require("url-join")
 const siteConfig = require("./siteConfig")
 
 module.exports = {
@@ -6,7 +5,7 @@ module.exports = {
     title: siteConfig.name,
     author: siteConfig.author,
     description: siteConfig.description,
-    siteUrl: urljoin(siteConfig.url, siteConfig.prefix),
+    siteUrl: siteConfig.url,
     social: {
       twitter: siteConfig.twitter,
     },
@@ -34,8 +33,8 @@ module.exports = {
             resolve: "gatsby-remark-external-links",
             options: {
               target: "_self",
-              rel: "nofollow"
-            }
+              rel: "nofollow",
+            },
           },
           {
             resolve: `gatsby-remark-images`,
@@ -48,7 +47,7 @@ module.exports = {
             },
           },
           {
-            resolve: 'gatsby-remark-instagram-embed',
+            resolve: "gatsby-remark-instagram-embed",
             options: {
               width: 320,
               height: 320,
@@ -80,23 +79,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-purgecss`,
-      options: {
-        printRejected: true, // Print removed selectors and processed file names
-        develop: true, // Enable while using `gatsby develop`
-        // tailwind: true, // Enable tailwindcss support
-        // whitelist: ['whitelist'], // Don't remove this selector
-        ignore: ["/ignored.css", "prismjs/", "/prism.css", "docsearch.js/"], // Ignore files/folders
-        purgeOnly: ["components/", "/main.css", "bootstrap/"], // Purge only these files/folders
-      },
-    },
-    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: `yourID`,
       },
     },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

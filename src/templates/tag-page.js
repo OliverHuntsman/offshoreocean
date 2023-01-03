@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import PostCard from "../components/postCard"
 
 class TagPageTemplate extends React.Component {
@@ -14,26 +14,24 @@ class TagPageTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO
+        <Seo
           // title={`#${tag}`}
           title={`#${tag.charAt(0).toUpperCase() + tag.slice(1)}`}
           keywords={[`${tag}`, `blog`, `gatsby`, `javascript`, `react`]}
         />
         <header className="tag-page-head">
-          <h1 className="page-head-title">#{tag}({props.data.allMarkdownRemark.totalCount})</h1>
+          <h1 className="page-head-title">
+            #{tag}({props.data.allMarkdownRemark.totalCount})
+          </h1>
         </header>
-      <div className="post-feed">
-        {posts.map(({ node }) => {
-          return (
-            <PostCard
-              key={node.fields.slug}
-              node={node}
-              postClass={`post`}
-            />
-          )
-        })}
-      </div>
-    </Layout>
+        <div className="post-feed">
+          {posts.map(({ node }) => {
+            return (
+              <PostCard key={node.fields.slug} node={node} postClass={`post`} />
+            )
+          })}
+        </div>
+      </Layout>
     )
   }
 }
@@ -48,7 +46,10 @@ export const pageQuery = graphql`
         author
       }
     }
-    allMarkdownRemark(filter: { frontmatter: { tags: { in: [$tag] } } }, sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      filter: { frontmatter: { tags: { in: [$tag] } } }
+      sort: { frontmatter: { date: DESC } }
+    ) {
       totalCount
       edges {
         node {
