@@ -2,7 +2,7 @@
 title: Yacht A
 date: "2021-01-28"
 thumbnail: ./yacht-a.jpeg
-description: Let your hair down and paint the town red
+description: Get On Board Yacht A for an exclusive preview
 ---
 
 ![Clean lines](./clem-onojeghuo-207792-unsplash.jpg)
