@@ -3,7 +3,7 @@ title: Weekly Summary.
 date: "2023-09-19"
 tags: [Weekly Summary]
 thumbnail: 
-description: This week we catch up with Oliver Huntsman from the Offoshore Ocean and Invincible International Team
+description: This week we catch up with Oliver Huntsman from the Offshore Ocean and Invincible International Team
 ---
 
 ### What has been happening today VLOG
