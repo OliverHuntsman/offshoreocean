@@ -8,11 +8,11 @@ description: This week we look at the Galeforce Twins catching monster Sailfish 
 
 ### GaleForce twins and Nigerian Stowaways
 
-The Galeforce twins fesh from Guatemala - check out their [YouTube] (https://www.youtube.com/watch?v=x9Cq9Yc28Yg)
+The Galeforce twins fesh from Guatemala - check out their [YouTube](https://www.youtube.com/watch?v=x9Cq9Yc28Yg)
 
 ![instagram](Clgpxm8AP6X)
 
-Nigerians Stowaway on the rudder of a [tanker!] (https://www.bbc.co.uk/news/world-europe-63791372)
+Nigerians Stowaway on the rudder of a [tanker!](https://www.bbc.co.uk/news/world-europe-63791372)
 
 ![Nigerians sat on a rudder!](./Nigerian.jpg)
 
