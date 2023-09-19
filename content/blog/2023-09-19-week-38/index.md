@@ -10,7 +10,8 @@ description: This week we catch up with Oliver Huntsman from the Offoshore Ocean
 
 Oliver's VLOG test [YouTube](https://youtu.be/mDmH7sr1Ad0) further development will embed the YouTube video into the website.
 
-I've been putting together a series of briefs to work with a developer and a UI designer - the cost will be about £2.5k and the delivery will be in about 2 weeks. I've worked with the 
+I've been putting together a series of briefs to work with a developer and a UI designer - the cost will be about £2.5k and the delivery will be in about 2 weeks. I've worked with the people before so am happy they can deliver in the given timescale.
+I'd like ot be able to walk up to various dealers at FLIBS and say we have a listing site - open yourself up to the global market and protect yourself from Interest Rate Rises happening domestically, all you'll have to do is detail and shrinkwrap and we'll take care of the rest.
 
 My view is that Offshore Ocean is a media company that pushes Invincible but can also list American Center Consoles.
 
