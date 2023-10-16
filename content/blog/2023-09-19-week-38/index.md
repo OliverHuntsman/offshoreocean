@@ -1,77 +1,39 @@
 ---
-title: Weekly Summary.
-date: "2023-09-19"
-tags: [Weekly Summary]
-thumbnail: 
-description: This week we catch up with Oliver Huntsman from the Offshore Ocean and Invincible International Team
+title: Invincible International at FLIBS 2023: A Grand Display of Invincible Boats!
+date: "2023-05-20"
+tags: [FLIBS 2023, Invincible, boat shows, Offshore Ocean]
+description: Join Invincible International at FLIBS 2023, as we proudly exhibit some of Invincible's finest models, featuring discussions with industry leaders and a sneak peek into the future of offshore boating.
 ---
 
-### What has been happening today VLOG
+## **Dive into FLIBS 2023 with Offshore Ocean**
 
-My view is that Offshore Ocean is a media company that pushes Invincible but can also list American Center Consoles.
+The marine world is abuzz with excitement as the **Fort Lauderdale International Boat Show (FLIBS) 2023** approaches. This event, a confluence of boat enthusiasts, industry pioneers, and groundbreaking marine technology, has everyone in the sector eagerly waiting. *Offshore Ocean* is no exception, and we're elated to announce our vibrant presence!
 
+### **Engage with Offshore Ocean's Elite**
 
-The goal for this site is to be fast and lightweight without being too complicated. We need to have rapid feedback loops as to whether or not this is something which we can perceive as likely to succeed.
+We're excited to introduce you to our stalwarts – **Ian Birdsall**, VP of International Business, and **Oliver Huntsman**, our Export Sales Specialist. Find them at **Booth 2057**, where they're ready to delve deep into conversations about our offerings, exchange thrilling boat tales, and discuss potential collaborations.
 
-With my new office setup, I've got a good space to make videos like the following quickly and easily.
+### **Showcasing Invincible's Craftsmanship**
 
-Oliver's VLOG test [YouTube](https://youtu.be/mDmH7sr1Ad0) (Click and watch) further development will embed the YouTube video into the website.
+Our deep-rooted association with **Invincible** propels us to spotlight their masterpieces:
 
-Positioning wise we need to think about how we can do this as IBCI and OO. I think this should be a media company that blatantly pushes our agenda for Invincible International and other trade that we do.
+- **Invincible 35**
+- **Invincible 39**
 
-I'd really like to do a Podcast where we Zoom or film when we're together and just talk conversationally about some news that's happened in the week - "We just shipped a 39' to Seychelles, did you see in IBI that MasterCraft had their best year for earnings - good news they needed it! I just don't understand where Azimut have gone - they're basically building a boat with the performance of a pontoon yet suggesting with the design that they've shoehorned in that it can cruise! And it just falls apart!!" Etc
-I think we can do more to leverage our existing activities by just recording and publishing.
+But, hold on, there's more! We're unveiling **three other models** from Invincible's stable that exemplify marine excellence. You surely don't want to miss these beauties!
 
-I've been putting together a series of briefs to work with a developer and a UI designer - the cost will be about £2.5k and the delivery will be in about 2 weeks. I've worked with the people before so am happy they can deliver in the given timescale.
-I'd like to be able to walk up to various dealers at FLIBS and say we have a listing site - open yourself up to the global market and protect yourself from Interest Rate Rises happening domestically, all you'll have to do is detail and shrinkwrap and we'll take care of the rest.
+### **Sail Beyond Just Displays**
 
+FLIBS 2023 isn't merely a show-and-tell. It's an ode to marine advancements, a golden opportunity to forge industry connections, and a forecast of boating's dynamic future. With *Offshore Ocean* navigating these waters, anticipate a surge of insights, electrifying discussions, and a glimpse of offshore boating's horizon.
 
-Here are the website briefs I have at the moment:-
+### **Anchoring the Details**
 
-[Brief](https://docs.google.com/document/d/1Ja0MjKcUHM2AkZUs8Uit9gA7yqSOyWnF3UkpNPvx4TY/edit?usp=sharing)
+📅 **When**: [Event Date – Please update]
+📍 **Where**: Broward County Convention Center, Booth 2057
 
+### **Wrapping it Up**
 
-Listing page UI:-
+Whether you're a marine aficionado, an aspiring buyer, or just intrigued by marine marvels, Booth 2057 at FLIBS 2023 is your destination. See you there, as we together sail into newer realms!
 
-[Listing Page](https://docs.google.com/document/d/1QhDOCminadDY8V1mjCbrvOrprWREMoEhI6cPMD6PcrE/edit?usp=sharing)
-
-Aggregated listings page:-
-
-[Aggregates](https://docs.google.com/document/d/1ykOc_pXu_OSDgdbLSNuNw6n3PaO7sibXOKN6vbNKPL4/edit?usp=sharing)
-
-Dealer benefits Page:-
-
-[Dealer Benefits](https://docs.google.com/document/d/1SYbvKl-AWJSDCAV5RtxD613SRAwKIz8PIbYajMfUjBk/edit?usp=sharing)
-
-Buyer benefits:-
-
-[Buyer benefits](https://docs.google.com/document/d/1C4Hwoq_guXgoPLrb8vTnRo8RtPNyUQXSC2mO56qLbmk/edit?usp=sharing)
-
-YouTube Video [Click here](https://youtu.be/DFo_gPMneNc)
-
-Site launch can be as follows:-
-
-*Social channels are already set up
-
-*Write an article & submit to various publications
-
--IBI
-
--Marlin
-
--Gulf news
-
--Boat
-
-
-<!-- 
-![instagram](Clgpxm8AP6X)
-
-Nigerians Stowaway on the rudder of a [tanker!] (https://www.bbc.co.uk/news/world-europe-63791372)
-
-![Nigerians sat on a rudder!](./Nigerian.jpg) -->
-
-<!-- ![Don't stop](./ian-dooley-298771-unsplash-1.jpg) -->
-
-<!-- ![Don't stop](./ian-dooley-298780-unsplash-1.jpg) -->
+*For more marine musings, anchor at our [Offshore Ocean Blog](#).*
 

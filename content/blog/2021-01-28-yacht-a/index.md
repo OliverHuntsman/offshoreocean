@@ -5,10 +5,12 @@ thumbnail: ./yacht-a.jpeg
 description: Get On Board Yacht A for an exclusive preview
 ---
 
-![Clean lines](./clem-onojeghuo-207792-unsplash.jpg)
+![Clean lines](./SailingYachtAAtAnchor.jpeg)
 
-![Clean lines](./mitch-lensink-588486-unsplash.jpg)
+![Clean lines](./sailingyachta-underway.jpeg)
 
-![Clean lines](./ricardo-gomez-angel-180819-unsplash.jpg)
+![Clean lines](./sailingyachta-sunset.jpeg)
 
-![Clean lines](./joanna-kosinska-254406-unsplash.jpg)
+![Clean lines](./sailingyachta-stern.jpeg)
+
+![Clean lines](./sailingyachta-overhead-aerial.jpg)
